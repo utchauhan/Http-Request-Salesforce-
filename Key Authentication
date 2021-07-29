@@ -1,3 +1,4 @@
+@future(callout=true) #if calling from a trigger
 public class KeyAuthCallout {
     public void basicAuthCallout(Id recordId){
         String endpoint = System.Label.XYZ;
